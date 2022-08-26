@@ -4,22 +4,32 @@
       color="dark"
       dark
     >
-      <div class="d-flex align-center">
-        <v-icon class="mx-2">
+      <div class="d-flex align-center mx-2">
+        <v-icon>
           mdi-noodles
         </v-icon>
       </div>
-      <v-toolbar-title>멀캠 오점무</v-toolbar-title>
+      <v-toolbar-title class="ml-2">멀캠 오점무</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
         target="_blank"
-        text
+        icon
       >
-        <span class="mr-2">Latest Release</span>
         <v-icon>mdi-open-in-new</v-icon>
+      </v-btn>
+      <v-btn
+        target="_blank"
+        icon
+      >
+        <v-icon>mdi-open-in-new</v-icon>
+      </v-btn>
+      <v-btn
+        target="_blank"
+        icon
+      >
+        <v-icon>mdi-cog</v-icon>
       </v-btn>
     </v-app-bar>
 

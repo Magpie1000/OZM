@@ -11,6 +11,7 @@ const routes = [
     name: 'LandingPage',
     component: LandingPage
   },
+
   // {
   //   path: '/about',
   //   name: 'about',

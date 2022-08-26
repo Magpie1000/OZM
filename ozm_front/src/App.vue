@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <TheNavBar />
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -7,6 +8,18 @@
     <router-view/>
   </div>
 </template>
+
+<script>
+import TheNavBar from './components/bar/TheNavBar.vue';
+
+export default {
+  name: 'LandingPage',
+  components: {
+    TheNavBar,
+
+},
+}
+</script>
 
 <style lang="scss">
 #app {

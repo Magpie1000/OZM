@@ -8,9 +8,8 @@
         <v-icon class="mx-2">
           mdi-noodles
         </v-icon>
-        <v-toolbar-title>멀캠 오점무</v-toolbar-title>
-        <p></p>
       </div>
+      <v-toolbar-title>멀캠 오점무</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
